@@ -1,0 +1,32 @@
+section{
+    border:1px solid black;
+    max-width:50%;
+    margin: 10px auto;
+    height: auto;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+button{
+    display: block;
+    margin: 1px auto;
+}
+#txt1,#txt2{
+    width: 90%;
+    margin: 2px auto;
+    height:50px;
+    padding:10px;
+}
+#cash,.error,.error2,#tab{
+    display: none;
+}
+table{
+    width: 100%;
+}
+td,th{
+    border: 1px solid black;
+    padding: 1rem;
+    word-wrap: break-word;
+    width: 100%;
+}
