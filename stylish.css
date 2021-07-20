@@ -4,6 +4,8 @@ section{
     margin: 10px auto;
     height: auto;
     text-align: center;
+    background:#2563EB ;
+    color: white;
 }
 *{
     box-sizing: border-box;
@@ -18,15 +20,14 @@ button{
     height:50px;
     padding:10px;
 }
-#cash,.error,.error2,#tab{
+#cash,.error,.error2,#output,.error3{
     display: none;
 }
-table{
-    width: 100%;
+#output,table,th,td{
+    border-collapse: collapse;
 }
-td,th{
-    border: 1px solid black;
-    padding: 1rem;
-    word-wrap: break-word;
-    width: 100%;
+#tab,th,td{
+    border: 1px solid white;
+    width:100%;
+    table-layout: fixed;
 }
