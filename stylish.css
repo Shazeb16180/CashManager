@@ -1,11 +1,12 @@
 section{
-    border:1px solid black;
-    max-width:50%;
-    margin: 10px auto;
-    height: auto;
+
+    width: 100%;
+    max-width: 500px;
+    min-height: 200px;
+    margin:auto;
+    padding: 2rem 1rem;
     text-align: center;
-    background:#2563EB ;
-    color: white;
+    background: #2563EB ;;
 }
 *{
     box-sizing: border-box;
@@ -15,19 +16,34 @@ button{
     margin: 1px auto;
 }
 #txt1,#txt2{
-    width: 90%;
+    width:100%;
     margin: 2px auto;
     height:50px;
-    padding:10px;
+    padding:1rem;
 }
 #cash,.error,.error2,#output,.error3{
     display: none;
 }
-#output,table,th,td{
+#output{
+    margin: 1rem 0;    
+}
+
+#output table, th, td{
+    padding: 0.3rem;
+ 
     border-collapse: collapse;
 }
-#tab,th,td{
-    border: 1px solid white;
-    width:100%;
+table{
+    width: 100%;
+    margin-top:0.5rem;
     table-layout: fixed;
+}
+
+th,td{
+    border: 1px solid white;
+    word-wrap: break-word;
+}
+.label{
+    font-weight: bold;
+    margin:2rem;
 }
