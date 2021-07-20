@@ -6,7 +6,8 @@ section{
     margin:auto;
     padding: 2rem 1rem;
     text-align: center;
-    background: #2563EB ;;
+    background: #2563EB ;
+    color: white;
 }
 *{
     box-sizing: border-box;
