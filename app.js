@@ -41,6 +41,7 @@ getCashGiven=function(){
     else{
         error2.style.display="none";
         error3.style.display="none";
+        document.querySelector("#result").innerHTML="Returning Amount:"+amt;
         for(var x=0;x<amtC.length;x++){
            amt=calc(amtC[x],amt);
             if(amt==0){

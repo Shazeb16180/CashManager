@@ -6,7 +6,7 @@ section{
     margin:auto;
     padding: 2rem 1rem;
     text-align: center;
-    background: #2563EB ;
+    background:#6D28D9;
     color: white;
 }
 *{
@@ -15,12 +15,17 @@ section{
 button{
     display: block;
     margin: 1px auto;
+    border-radius: 10px;
+    padding: 0.5rem;
 }
 #txt1,#txt2{
     width:100%;
     margin: 2px auto;
     height:50px;
     padding:1rem;
+    border-radius:8px ;
+    background-color: transparent;
+    color: white;
 }
 #cash,.error,.error2,#output,.error3{
     display: none;
