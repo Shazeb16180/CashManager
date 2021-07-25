@@ -6,8 +6,10 @@ section{
     margin:auto;
     padding: 2rem 1rem;
     text-align: center;
-    background:#6D28D9;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
     color: white;
+    border-radius: 10px;
 }
 *{
     box-sizing: border-box;
@@ -52,4 +54,19 @@ th,td{
 .label{
     font-weight: bold;
     margin:2rem;
+}
+
+
+footer img{
+    width:30px;
+}
+footer{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin: 2px;
+    display: inline;
 }
