@@ -23,6 +23,10 @@ getCashGiven=function(){
     }
 }
  getChange=()=>{
+    console.log("Here 1");
+     if(txt1.value>0 && txt2.value>0){
+         console.log("Here 2");
+
      for(var i=0;i<amtC.length;i++){
         document.querySelector("#c"+amtC[i]).innerHTML=0
      }
@@ -49,6 +53,19 @@ getCashGiven=function(){
             }
         }
         tabl.style.display="block";
+    }}
+    else if(txt1.value<=0){
+        console.log("Here 3");
+        btn1.style.display="block";
+        cash.style.display="none";
+        tabl.style.display="none";
+        error.style.display="block";
+    }
+    else if(txt2.value<=0){
+        console.log("Here 4");
+        tabl.style.display="none";
+        error3.style.display="block";
+
     }
 }
 
